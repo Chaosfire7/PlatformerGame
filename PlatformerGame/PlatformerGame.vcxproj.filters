@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Battery.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBlock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Goal.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteImporter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserBlock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakableBlock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonBlock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FlickingBlock.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomConstructor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiButton.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToPlay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StageSelection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sticker.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Follower.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToPlayPlayerClone.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Information.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Utility.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+    <None Include="Vec2.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+    <None Include="Room.inl">
+      <Filter>헤더 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Battery.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletBlock.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Goal.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayManager.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteImporter.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="View.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserBlock.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableBlock.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonBlock.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FlickingBlock.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomConstructor.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButton.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToPlay.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StageSelection.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sticker.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Follower.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToPlayPlayerClone.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Information.hpp">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Battery0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Block0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BreakableBlock0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BreakableBlock1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BreakableBlock2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BulletBlock0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Button0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Button1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ButtonBlock0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ButtonBlock1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="FlickingBlock0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="FlickingBlock1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Goal0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiLevelButton0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiLevelButton1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiLevelButton2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiLevelButton3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiLevelButton4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiMenuButton0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiMenuButton1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiMenuButton2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiMenuButton3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="GuiMenuButton4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Key0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="LaserBlock0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Player0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Player1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Player2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Player3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PlayerJump0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PlayerJump1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Star0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextExit0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextHow0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber10.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber11.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber12.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber13.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber14.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber15.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber16.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber17.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber18.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber19.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStageNumber20.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="TextStart0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Title0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Pause0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bullet0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayText0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayKey0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayKey2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayKey4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayKey6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayKey7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlaySpaceBar0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayArrow0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayArrow1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayCircle0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayCircle1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayKey8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayKey1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayKey3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayKey5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlaySpaceBar1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayInformation0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayInformation5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayInformation1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayInformation2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayInformation3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="HowToPlayInformation4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StageSelectionText0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StageSelectionDifficulty3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StageSelectionDifficulty2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StageSelectionDifficulty1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StageSelectionDifficulty0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="StageSelectionLock0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Information0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="InformationText0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="InformationText1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="InformationText2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="InformationText3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="InformationText4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="InformationText5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="InformationText6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="InformationText7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="InformationText8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Title1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PlayerDie0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

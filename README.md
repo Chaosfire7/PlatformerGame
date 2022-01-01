@@ -62,16 +62,10 @@ START를 선택해 스테이지 선택 화면으로 갈 수 있고 HOW를 선택
 
 ### 내가 한 부분
 
-1. BulletBlock, Player 시간역행 부분 버그 수정
-2. LaserBlock 리뉴얼
-3. 그외 모든 것 (Block, BreakableBlock, Button, ButtonBlock, Console, Controller, FlickingBlock, Follower, GuiButton, HowToPlay, HowToPlayPlayerClone, Information, Particle, Player 나머지(충돌처리, 조작 관련 등), PlayManager, Room, RoomConstructor, Sprite, SpriteImporter, StageSelection, Sticker, Title, View)
-4. Battery, Block, BreakableBlock, Button, ButtonBlock, FlickingBlock, Goal, GuiLevelButton, GuiMenuButton, HowToPlay*, Information*, Pause, Player, PlayerJump, StageSelection*, Star, Text* 의 bmp파일 디자인
-5. 1~5스테이지 레벨 디자인
+1. 11~15 스테이지 레벨 디자인
+2. 초기 시간역행 커밋, 초기 재시작
+3. Bullet, BulletBlock, LaserBlock, PlayDie의 bmp파일 디자인
+4. 버그로 인해 삭제한 MoveableBlock, MovingBlock
 
-### 팀원께서 해주신 부분
-
-1. Battery, Bullet, BulletBlock, Goal, Key, LaserBlock, Player 시간역행 부분 초기 커밋
-2. 6~20스테이지 레벨 디자인
-3. Bullet, BulletBlock, LaserBlock, PlayerDie의 bmp파일 디자인
 
 6 ~10, 16 ~20스테이지를 디자인해주신 팀원 분의 허락을 받지 않아 해당 스테이지는 제거하였습니다.
